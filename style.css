@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 900px;
+    height: 500px;
+    background-color: grey;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.menu-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-top h2 {
+    margin: 40px 0 0 0;
+    color: white;
+}
+
+.menu-top p {
+    margin: 8px 0 50px 0;
+    color: white;
+}
+
+#menu-btn {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.menu-mid {
+    height: 100%;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
